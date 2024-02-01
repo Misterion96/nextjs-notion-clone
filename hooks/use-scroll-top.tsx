@@ -2,8 +2,6 @@ import {
   useEffect,
   useState,
 } from "react";
-import { Simulate } from "react-dom/test-utils";
-import input = Simulate.input;
 
 export const useScrollTop = (
   threshold = 10,
